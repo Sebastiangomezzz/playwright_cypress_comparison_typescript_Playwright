@@ -33,6 +33,7 @@ export const SearchBar = ({ products, setFilteredData }) => {
             onChange={handleChange}
             type='text'
             placeholder='Type 3 or more characters...'
+            data-cy='search-bar'
           />
         </Form>
       </Card>
