@@ -29,7 +29,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='firstName'
-              data-cy='formFirstName'>
+              data-test-id='formFirstName'>
               <Form.Label>Fist Name</Form.Label>
               <Form.Control
                 type='text'
@@ -40,7 +40,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='lastName'
-              data-cy='formLastName'>
+              data-test-id='formLastName'>
               <Form.Label>Last Name</Form.Label>
               <Form.Control
                 type='text'
@@ -50,7 +50,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='email'
-              data-cy='formEmail'>
+              data-test-id='formEmail'>
               <Form.Label>Email address</Form.Label>
               <Form.Control
                 type='email'
@@ -63,7 +63,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='phone'
-              data-cy='formPhone'>
+              data-test-id='formPhone'>
               <Form.Label>Phone</Form.Label>
               <Form.Control
                 type='text'
@@ -73,7 +73,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='adress'
-              data-cy='formAddress'>
+              data-test-id='formAddress'>
               <Form.Label>Address</Form.Label>
               <Form.Control
                 type='text'
@@ -83,7 +83,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='zipCode'
-              data-cy='formZipCode'>
+              data-test-id='formZipCode'>
               <Form.Label>Zip Code</Form.Label>
               <Form.Control
                 type='text'
@@ -93,7 +93,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='billingAdress'
-              data-cy='formBillingAddress'>
+              data-test-id='formBillingAddress'>
               <Form.Label>Billing address</Form.Label>
               <Form.Control
                 type='text'
@@ -103,7 +103,7 @@ export const CheckoutPage = () => {
             <Form.Group
               className='mb-3'
               controlId='cardNumber'
-              data-cy='formCardNumber'>
+              data-test-id='formCardNumber'>
               <Form.Label>Card number (IBAN)</Form.Label>
               <Form.Control
                 type='text'
@@ -113,7 +113,7 @@ export const CheckoutPage = () => {
             <Button
               variant='primary'
               type='submit'
-              data-cy='formSubmitButton'>
+              data-test-id='formSubmitButton'>
               Submit
             </Button>
           </Form>

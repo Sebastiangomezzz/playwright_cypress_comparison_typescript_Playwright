@@ -77,7 +77,7 @@ export const ShoppingCartOverlayItem = ({ productId, variant, handleDeleteProduc
             +
           </Button>{' '}
           <Button
-            data-cy='btn-substract-one'
+            data-test-id='btn-substract-one'
             onClick={() => {
               setCurrentQuantity(currentQuantity - 1);
               dispatch(decrementProductQuantity(currentProduct));

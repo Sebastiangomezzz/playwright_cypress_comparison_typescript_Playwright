@@ -30,7 +30,7 @@ export const ProductDetailPage = () => {
             <Button
               variant='secondary'
               onClick={() => back()}
-              data-cy='back-to-list-btn'>
+              data-test-id='back-to-list-btn'>
               Back to List of devices
             </Button>
           </Container>

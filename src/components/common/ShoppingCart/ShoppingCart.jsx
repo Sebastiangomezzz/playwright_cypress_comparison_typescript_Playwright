@@ -62,7 +62,7 @@ export const ShoppingCart = () => {
           id='popover-contained'
           style={{ padding: 0, backgroundColor: 'rgba(185, 182, 182, 0.5)' }}>
           <Popover.Header as='h3'>Cart</Popover.Header>
-          <Popover.Body data-cy='cart-list'>
+          <Popover.Body data-test-id='cart-list'>
             {productsInCart && productsInCart.length > 0 ? (
               productsInCart.map((product) => (
                 <ShoppingCartOverlayItem
